@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
 	cout << "one" << endl;
-	goto link; // за место link можно что угодно написать 
-	cout << "two" << endl;//пропускает 
-	cout << "three" << endl;//пропускает
-	link: //заканчивается
+	goto link; // Р·Р° РјРµСЃС‚Рѕ link РјРѕР¶РЅРѕ С‡С‚Рѕ СѓРіРѕРґРЅРѕ РЅР°РїРёСЃР°С‚СЊ  
+	cout << "two" << endl;// РїСЂРѕРїСѓСЃРєР°РµС‚ 
+	cout << "three" << endl;// РїСЂРѕРїСѓСЃРєР°РµС‚ 
+	link: // Р·Р°РєР°РЅС‡РёРІР°РµС‚СЃСЏ
 	cout << "four" << endl;
 	cout << "five" << endl;
 }
